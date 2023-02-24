@@ -8,17 +8,18 @@ module.exports = {
       },
       colors: {
         "black-main": "#222222",
+        "gray-button": "#BDC0BA",
         "red-accent": "#8E1828",
       },
-      keyframes : {
+      keyframes: {
         arrowMove: {
-          '0%': { top: '155%'},
-          '50%': { top: '200%' },
-          '100%': { top: '155%' },
-        }
+          "0%": { top: "155%" },
+          "50%": { top: "200%" },
+          "100%": { top: "155%" },
+        },
       },
       animation: {
-        'promote-searching': 'arrowMove 1s ease-in-out infinite',
+        "promote-searching": "arrowMove 1s ease-in-out infinite",
       },
     },
   },

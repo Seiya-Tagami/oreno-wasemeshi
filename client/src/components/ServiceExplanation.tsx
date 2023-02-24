@@ -4,8 +4,8 @@ import { wasemeshiIntroData } from '../utils/constants'
 
 const ServiceExplanation = () => {
   return (
-    <div className='w-full h-[800px] text-white bg-black-main flex justify-center'>
-      <div className='w-[1400px] h-full flex flex-col items-center gap-16'>
+    <section className='w-full min-h-[800px] text-white bg-black-main flex justify-center'>
+      <div className='w-[1400px] flex flex-col items-center gap-16'>
         <h2 className='text-[40px] font-bold bg-red-accent w-fit px-3 mt-20'>サービス概要</h2>
         <p className='w-2/3'>
           本サイトでは早稲田生に愛され続けられているわせ飯に特化した検索サービスとなっております。わせ飯に特化することで、普段の検索に伴う余計なわずらわしさを減らし、わせ飯に気軽に足が運ぶように心がけました。以下の検索欄から一度お試しください。<br />
@@ -25,7 +25,7 @@ const ServiceExplanation = () => {
           <ArrowDownwardIcon className='!text-6xl animate-promote-searching absolute top-[150%]' />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
