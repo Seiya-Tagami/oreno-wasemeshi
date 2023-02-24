@@ -1,9 +1,10 @@
 import React from 'react'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { wasemeshiIntroData } from '../utils/constants'
 
 const ServiceExplanation = () => {
   return (
-    <div className='w-full h-[720px] text-white bg-black-main flex justify-center'>
+    <div className='w-full h-[800px] text-white bg-black-main flex justify-center'>
       <div className='w-[1400px] h-full flex flex-col items-center gap-16'>
         <h2 className='text-[40px] font-bold bg-red-accent w-fit px-3 mt-20'>サービス概要</h2>
         <p className='w-2/3'>
@@ -18,6 +19,10 @@ const ServiceExplanation = () => {
               </div>
             )
           })}
+        </div>
+        <div className='flex flex-col items-center gap-4 relative'>
+          <span className='text-xl font-bold'>さっそく使ってみる</span>
+          <ArrowDownwardIcon className='!text-6xl animate-promote-searching absolute top-[150%]' />
         </div>
       </div>
     </div>
