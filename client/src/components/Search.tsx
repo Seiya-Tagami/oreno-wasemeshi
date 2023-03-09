@@ -25,7 +25,7 @@ const Search = () => {
     <section>
       <div className='w-full h-[600px] flex justify-center bg-black-main'>
         <div className='w-[1400px] h-full flex flex-col items-center gap-16'>
-          <h2 className='text-[40px] text-white font-bold bg-red-accent w-fit px-3 mt-20'>わせ飯検索</h2>
+          <h2 className='md:text-[40px] text-[32px] text-white font-bold bg-red-accent w-fit px-3 mt-20'>わせ飯検索</h2>
           <div className='w-2/3 bg-gray-100 p-7'>
             <div className='flex flex-col gap-4'>
               <span className='font-semibold'>1.検索方法を選択</span>
