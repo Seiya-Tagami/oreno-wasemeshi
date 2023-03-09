@@ -1,5 +1,5 @@
 import React from 'react'
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
 import { wasemeshiIntroData } from '../utils/constants'
 
 const ServiceExplanation = () => {
@@ -19,10 +19,6 @@ const ServiceExplanation = () => {
               </div>
             )
           })}
-        </div>
-        <div className='flex flex-col items-center gap-4 relative'>
-          <span className='text-xl font-bold'>さっそく使ってみる</span>
-          <ArrowDownwardIcon className='!text-6xl animate-promote-searching absolute top-[150%]' />
         </div>
       </div>
     </section>

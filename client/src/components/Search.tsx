@@ -22,7 +22,7 @@ const Search = () => {
   })
 
   return (
-    <section>
+    <section id='search'>
       <div className='w-full h-[600px] flex justify-center bg-black-main'>
         <div className='w-[1400px] h-full flex flex-col items-center gap-16'>
           <h2 className='md:text-[40px] text-[32px] text-white font-bold bg-red-accent w-fit px-3 mt-20'>わせ飯検索</h2>
