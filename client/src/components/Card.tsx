@@ -26,16 +26,16 @@ const Card: FC<{ data: Wasemeshi }> = ({ data }) => {
   const isBusinessHours2 = data.openTime2 <= hour && hour <= data.closeTime2;
 
   return (
-    <div className='w-[300px] h-[400px] flex flex-col bg-white rounded-xl overflow-hidden'>
+    <div className='w-[300px] h-[420px] flex flex-col bg-white rounded-xl overflow-hidden hover:scale-105 duration-150 cursor-pointer'>
       <img src={data.image ? data.image : "/img/no_image.png"} alt="" className='h-1/2 object-cover' />
-      <div className='p-4'>
+      <div className='h-1/2 p-4'>
         <div className='flex items-center justify-between'>
           <h2 className='text-xl font-bold'>{data.title}</h2>
           <span className="p-2 rounded-2xl" style={{ backgroundColor: `${data.themeColor}` }}>{data.category}</span>
         </div>
         {isRegularDayOff ?
           (
-            <p className='text-sm font-bold text-red-500'>本日は定休日です。</p>
+            <p className='text-sm font-bold text-red-500'>本日は定休日です</p>
           ) :
           (
             isBusinessHours1 || isBusinessHours2 ?
@@ -47,7 +47,6 @@ const Card: FC<{ data: Wasemeshi }> = ({ data }) => {
           <li>・{data.timesToVisit}</li>
           <li>・{data.desc}</li>
         </ul>
-        <Link to={"/"} className="block w-fit ml-auto text-red-accent">詳細を見る</Link>
       </div>
     </div>
   )

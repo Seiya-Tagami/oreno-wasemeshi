@@ -4,7 +4,7 @@ import { wasemeshiIntroData } from '../utils/constants'
 
 const ServiceExplanation = () => {
   return (
-    <section className='w-full min-h-[800px] text-white bg-black-main flex justify-center'>
+    <section className='w-full text-white bg-black-main flex justify-center'>
       <div className='w-[1400px] flex flex-col items-center gap-16'>
         <h2 className='md:text-[40px] text-[32px] font-bold bg-red-accent w-fit px-3 mt-20'>サービス概要</h2>
         <p className='w-2/3'>
